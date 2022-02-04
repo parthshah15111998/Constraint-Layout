@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Walmart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/bitmap"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_bitmap"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_cvs_pharmacy_logo_stacked"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_img001"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="421dp" />
+
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        app:constraint_referenced_ids="bitmap,logo,image"
+        app:flow_maxElementsWrap="3"
+        app:flow_verticalGap="80dp"
+        app:flow_wrapMode="chain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+    </androidx.constraintlayout.helper.widget.Flow>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#A101020B"
+        app:layout_constraintBottom_toTopOf="@+id/logo"
+        app:layout_constraintTop_toBottomOf="@+id/bitmap"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="400dp"
+        android:layout_height="3dp"
+        android:background="#A101020B"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="400dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="8dp"
+        android:background="#A101020B"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textTitle_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fine Print"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="he new version fixes a bug in logtext.exe that prevented the LINES option from working properly. The fix also causes a minor speed benefit for the DLL."
+        app:layout_constraintTop_toBottomOf="@+id/textTitle_2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_selectCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:text="SELECT A CARD"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_loadCard"
+        app:layout_constraintTop_toTopOf="@id/text_loadCard"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/text_twizzlers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twizzlers"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/bitmap"
+        app:layout_constraintTop_toTopOf="@+id/bitmap"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_package"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Packages of Twizzlers"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/bitmap"
+        app:layout_constraintTop_toBottomOf="@+id/text_twizzlers"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_offers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1%OFF"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/bitmap"
+        app:layout_constraintTop_toBottomOf="@+id/text_package"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_validDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Valid Date"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/bitmap"
+        app:layout_constraintTop_toBottomOf="@+id/text_offers"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jan 09,2022 to jan 16,2022"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/bitmap"
+        app:layout_constraintTop_toBottomOf="@+id/text_validDate"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textTitle_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ways To Redeem"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/text_loadCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load To Card:"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/logo"
+        app:layout_constraintStart_toStartOf="@+id/textTitle_3"
+        app:layout_constraintTop_toBottomOf="@id/textTitle_3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_combine_with_deal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combine With This Deals"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:text="Categories"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/black"
+        app:cornerRadius="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_selectCard"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_share_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text_twizzlers"
+        tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

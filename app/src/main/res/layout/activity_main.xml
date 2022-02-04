@@ -7,12 +7,420 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Categories"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_001_cracker_1"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_002_strawberry_2"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_003_flour_3"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_004_orange_4"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_005_banana_5"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_006_tomato_6"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_007_onion_7"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_008_sugar_8"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_009_grapes_9"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_010_milk_10"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_011_egg_11"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_012_greenbeans_12"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_013_cup_13"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_014_apple_14"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_015_bread_15"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_016_rice_16"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        app:constraint_referenced_ids="circleImageView1,circleImageView2,circleImageView3,
+        circleImageView4,circleImageView5,circleImageView6,circleImageView7,circleImageView8,
+        circleImageView9,circleImageView10,circleImageView11,circleImageView12,circleImageView13,circleImageView14,circleImageView15,circleImageView16"
+        app:flow_maxElementsWrap="4"
+        app:flow_verticalGap="60dp"
+        app:flow_wrapMode="chain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/text_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="orange"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView4"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView4"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_flour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Flour"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView3"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView3"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_strawberry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Strawberry"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView2"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView2"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView2"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/text_cracker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Cracker"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView1"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView1"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_banana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Banana"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView5"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView5"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Tomato"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView6"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView6"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_Onion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Onion"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView7"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView7"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView7"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_Sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Sugar"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView8"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView8"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView8"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_grapes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Grapes"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView9"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView9"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView9"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Milk"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView10"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView10"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView10"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_egg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Egg"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView11"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView11"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView11"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_greenBeans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="GreenBeans"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView12"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView12"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView12"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_cup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Cup"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView13"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView13"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView13"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Apple"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView14"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView14"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView14"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_rice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Rice"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView16"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView16"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView16"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_Bread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Bread"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView15"
+        app:layout_constraintStart_toStartOf="@+id/circleImageView15"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView15"
+        tools:ignore="MissingConstraints" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
