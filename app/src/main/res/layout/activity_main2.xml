@@ -39,21 +39,21 @@
             android:id="@+id/logo"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginTop="75dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="7dp"
             android:src="@drawable/ic_cvs_pharmacy_logo_stacked"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bitmap"
+            app:layout_constraintTop_toBottomOf="@+id/text_loadCard"
             tools:ignore="MissingConstraints" />
 
         <ImageView
             android:id="@+id/image"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="7dp"
             android:src="@drawable/ic_img001"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/logo"
+            app:layout_constraintTop_toBottomOf="@+id/text_combine_with_deal"
             tools:ignore="MissingConstraints" />
 
         <View
